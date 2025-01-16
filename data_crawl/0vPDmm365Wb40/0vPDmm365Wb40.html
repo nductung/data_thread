@@ -1,0 +1,25 @@
+<div class="ThreadSummary_markdown__doBEe"><h1>Anthropic công bố nghiên cứu về lỗ hổng bảo mật AI: Kỹ thuật đơn giản nhưng hiệu quả đáng ngại</h1>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/GfQAwlUasAYGoBD?format=png&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Matthew Berman vừa chia sẻ về một nghiên cứu đáng chú ý từ Anthropic AI về một kỹ thuật jailbreak (phá vỡ hạn chế bảo mật) mới. Điều đáng ngại là kỹ thuật này không chỉ có thể vượt qua được hệ thống bảo vệ của mọi mô hình AI hàng đầu mà còn rất đơn giản để thực hiện.</div>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/GfQAxiAasAIb-EO?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Kỹ thuật mới này được gọi là Best-of-N (BoN) Jailbreaking, một thuật toán black-box (hộp đen) có khả năng vượt qua các biện pháp bảo vệ của hệ thống AI trong nhiều lĩnh vực. BoN hoạt động bằng cách tạo ra nhiều biến thể của câu lệnh thông qua các phương pháp như xáo trộn ngẫu nhiên hoặc thay đổi chữ hoa/thường, cho đến khi nhận được phản hồi mong muốn.</div>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/GfQAyZeasAMwSzk?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Trong các bài kiểm tra, BoN đã đạt được tỷ lệ thành công tấn công (ASR) cao trên các mô hình ngôn ngữ:</div>
+<ul>
+<li>89% trên GPT-4o</li>
+<li>78% trên Claude 3.5 Sonnet<br>
+Kết quả này đạt được bằng cách thử nghiệm với 10.000 câu lệnh được biến đổi.</li>
+</ul>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/GfQAzRna0AAh7G5?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">BoN không chỉ có thể vượt qua các hệ thống phòng vệ mã nguồn mở tiên tiến mà còn có thể áp dụng cho nhiều loại mô hình AI khác nhau:</div>
+<ul>
+<li>Mô hình Ngôn ngữ-Hình ảnh (VLMs) như GPT-4o</li>
+<li>Mô hình Ngôn ngữ-Âm thanh (ALMs) như Gemini 1.5 Pro</li>
+</ul>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/GfQA0J0bAAAHHJb?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Đáng chú ý là hiệu quả của BoN tăng theo số lượng mẫu thử nghiệm. Tỷ lệ thành công tấn công (ASR) tăng theo hàm lũy thừa khi số lượng mẫu (N) tăng lên.</div>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/GfQA1BfawAAR3WQ?format=png&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Khi kết hợp BoN với các thuật toán black-box khác, hiệu quả còn cao hơn nữa. Ví dụ, việc tích hợp BoN với một cuộc tấn công tối ưu hóa tiền tố có thể tăng tỷ lệ thành công lên đến 35%.</div>
+<div class="ThreadSummary_paragraph__Dc48l">Nghiên cứu này cho thấy, dù có khả năng tiên tiến đến đâu, các mô hình ngôn ngữ vẫn dễ bị tổn thương trước những thay đổi nhỏ trong đầu vào. Đây là một cảnh báo quan trọng cho cộng đồng AI về việc cần tăng cường các biện pháp bảo mật cho các mô hình AI trong tương lai.</div>
+<div class="ThreadSummary_paragraph__Dc48l">Chi tiết đầy đủ về nghiên cứu này có thể được tìm thấy trong bài báo khoa học tại: https://arxiv.org/pdf/2412.03556</div>
+<div class="ThreadSummary_paragraph__Dc48l"><em>Lưu ý: Bài viết này chỉ nhằm mục đích thông tin và nâng cao nhận thức về bảo mật AI. Việc lạm dụng các kỹ thuật này có thể gây hại và vi phạm điều khoản sử dụng của các nền tảng AI.</em></div></div>

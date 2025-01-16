@@ -1,0 +1,29 @@
+<div class="ThreadSummary_markdown__doBEe"><h1>Mẹo "thần thánh" giúp giảm 80% lỗi AI hallucination khi làm việc với Cursor và Windsurf</h1>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/Gfk5nRZXcAA-h5y?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Một lập trình viên có tên CJ vừa chia sẻ một phương pháp đột phá giúp cải thiện đáng kể hiệu quả khi làm việc với các công cụ AI như Cursor và Windsurf. Theo anh, chỉ với một thay đổi đơn giản là tạo thư mục "Documentation" trong thư mục gốc của dự án, bạn có thể:</div>
+<ul>
+<li>Giảm 80% hiện tượng AI "hallucination" (tức là AI tạo ra thông tin sai lệch hoặc không chính xác)</li>
+<li>Giảm 60% lỗi code</li>
+</ul>
+<h2>Tại sao cần làm điều này?</h2>
+<div class="ThreadSummary_paragraph__Dc48l">CJ giải thích rằng các mô hình như GPT4o và Claude Sonnet 3.5 là những mô hình "thực thi" - nghĩa là chúng giỏi trong việc thực hiện các hướng dẫn và đi từ điểm A đến điểm B. Tuy nhiên, chúng không đủ khả năng để suy luận, suy nghĩ và lập kế hoạch cho các bước tiếp theo. Đó là lý do tại sao khi không được cung cấp đủ ngữ cảnh về dự án, các mô hình này bắt đầu "hallucinate" và làm rối tung codebase.</div>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/Gfk73LyXUAE_T3i?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Để khắc phục vấn đề này, chúng ta cần xây dựng "ranh giới ngữ cảnh" cho các mô hình thông qua tài liệu dự án:</div>
+<ul>
+<li>Tài liệu PRD (Product Requirements Document) giải thích về dự án, tech stack, luồng ứng dụng, layout</li>
+<li>Các tài liệu khác cung cấp thông tin chi tiết cho các mô hình LLM coding</li>
+</ul>
+<h2>Giải pháp từ CodeGuide</h2>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/Gfk9DkiWQAAtZSy?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">Ban đầu, CJ sử dụng mô hình o1 để tạo tài liệu dự án vì khả năng suy luận tốt của nó. Tuy nhiên, quá trình này tốn khoảng 7-8 giờ và chi phí khá cao (o1 pro có giá $200). Để giải quyết vấn đề này, anh đã phát triển CodeGuide - một công cụ tự động viết tất cả các tài liệu cần thiết với cấu trúc tối ưu.</div>
+<div class="ThreadSummary_paragraph__Dc48l"><div class="ThreadSummary_imageWrapper__bW8PL "><img src="https://pbs.twimg.com/media/Gfk-gwAWAAAZCzx?format=jpg&amp;name=900x900" alt="" class="ThreadSummary_image__C1Oqn"></div></div>
+<div class="ThreadSummary_paragraph__Dc48l">CodeGuide vừa mới ra mắt và đã thu hút được 150 thành viên. Công cụ này hứa hẹn sẽ mang đến nhiều tính năng hấp dẫn:</div>
+<ul>
+<li>Hướng dẫn video</li>
+<li>Các boilerplate (mẫu code có sẵn)</li>
+<li>Mẫu prompt</li>
+<li>Cộng đồng lập trình viên AI</li>
+<li>Ưu đãi từ các công cụ coding AI</li>
+</ul>
+<div class="ThreadSummary_paragraph__Dc48l">Hiện tại, CodeGuide đang có chương trình giảm giá 30% cho gói năm, tương đương $16/tháng. Công cụ này sử dụng kết hợp các API của 01-preview, GPT4o và Sonnet 3.5 để tạo tài liệu tự động.</div>
+<div class="ThreadSummary_paragraph__Dc48l">Đây là một ví dụ điển hình về cách công nghệ AI đang được tối ưu hóa để phục vụ công việc lập trình hiệu quả hơn, đồng thời cho thấy tầm quan trọng của việc tài liệu hóa trong các dự án phát triển phần mềm hiện đại.</div></div>
