@@ -1,0 +1,2 @@
+﻿thread_id,username,title,description
+yYjyv8D6pYOpq,@mjovanovictech,Hiểu Về Giao Hàng Ít Nhất Một Lần và Mẫu Tiêu Thụ Idempotent,"Trong thế giới của hệ thống phân tán và điện toán đám mây, khái niệm ""giao hàng ít nhất một lần"" (at-least-once delivery) là một chủ đề nóng hổi, thường xuyên được nhắc đến khi bàn về xử lý tin nhắn. Milan Jovanović gần đây đã chia sẻ một chuỗi tweet siêu hay ho về chủ đề này, chỉ ra những thách thức từ việc trùng lặp tin nhắn và gợi ..."

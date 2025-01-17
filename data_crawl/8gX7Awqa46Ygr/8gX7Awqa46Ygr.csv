@@ -1,0 +1,2 @@
+﻿thread_id,username,title,description
+8gX7Awqa46Ygr,@JamesIvings,Tận dụng Autoscale Pools của DigitalOcean để xử lý email siêu mượt,"Mới đây trên Twitter, anh James Ivings đã chia sẻ một câu chuyện chuyển đổi cực kỳ thú vị: anh ấy đã di cư toàn bộ hệ thống xử lý email sang autoscale pools của VPS DigitalOcean. Kết quả? Mọi thứ trơn tru như bôi dầu, và còn phô diễn sức mạnh của hạ tầng đám mây trong việc xử lý khối lượng công việc lên xuống thất thường...."
